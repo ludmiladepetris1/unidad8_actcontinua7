@@ -23,7 +23,7 @@ for i in range(1,len(tiemposMin)):
 
         # Cuando no hay mas numeros mas grande que el numero guardado en "valor"
         # Coloca ese numero en el casillero que quedo libre.
-        tiemposMin[j+1] = valor
+    tiemposMin[j+1] = valor
 
 print("Tiempos ordenados:",tiemposMin)
 
